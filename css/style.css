@@ -1,0 +1,152 @@
+body
+{
+	font-family: 'Crete Round', serif; 
+	background-color: #ecf0f1;
+}
+
+
+
+/* Start of navBar */
+.navbar-inverse
+{
+	border: none;
+}
+
+.container-fluid
+{
+	background-color: #fff;
+}
+
+.navbar-inverse 
+.navbar-nav > li > a:hover, 
+.navbar-inverse 
+.navbar-nav > li > a:focus
+{
+	color: #fff;
+    background-color: #3b5770;
+}
+
+.navbar-inverse 
+.navbar-nav > li > a
+{
+	    color: #f75140;
+	    padding-top: 42px;
+	    margin-right: 20px;
+	    font-size: 20px;
+}
+
+.navbar-inverse .navbar-toggle .icon-bar
+{
+	background-color: #f75140;
+}
+
+.navbar-inverse .navbar-toggle
+{
+	border-color: #3498db;
+}
+
+.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus
+{
+	background-color: #3b5770;
+}
+
+
+
+/* Start of Slider*/
+
+.slider
+{
+	margin-top: 75px;
+}
+
+.slide-img
+{
+	padding-left: 620px;
+    margin-top: -245px;
+}
+
+.carousel-indicators li
+{
+	border: 1px solid #286090;
+
+}
+
+.carousel-indicators 
+.active
+{
+	background-color: #3b5770;
+}
+
+.slider-content
+{
+	padding-left: 10px;
+}
+
+.carousel-caption
+{
+	color: #080808;
+    text-align: center;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, .3);
+}
+
+.carousel-indicators li
+{
+	width: 34px;
+	height: 6px;
+}
+
+.carousel-indicators 
+.active
+{
+	width: 34px;
+    height: 6px;
+}
+
+
+
+/* Start of CRUISES Section Style */
+.cruises
+{
+	background-color: #3b5770;
+	margin-top: 50px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+
+}
+
+.cruises h1
+{
+	margin-bottom: 40px;
+	color: #fff;
+}
+
+.cruises .cruise-box
+{
+	background-color: #fff;
+	padding: 10px;
+	border: 2px solid #ecf0f1;
+	margin-bottom: 15px;
+}
+
+.cruises .cruise-box h2
+{
+	margin: 5px 0 10px;
+}
+
+.cruises .cruise-box p
+{
+	font-size: 30px;
+	font-weight: bold;
+	color: #666;
+	width: 100px;
+	height: 100px;
+	background-color: #f3f3f3;
+	border-radius: 50%;
+	line-height: 100px;
+}
+
+.cruises .cruise-box ul
+{
+	line-height: 200%;
+	font-size: 18px;
+}
